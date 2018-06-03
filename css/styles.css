@@ -1,0 +1,51 @@
+header{
+    background-image: url(../images/headerimage.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    max-width: wi;
+    padding-bottom: 0.3rem;
+}
+
+.motto{
+    font-style: italic;
+}
+
+.form-group{
+    padding-top:0.3rem;
+}
+
+.carousel {
+    width:640px;
+    height:480px;
+    margin:auto;
+}
+
+.carousel-item img{
+    width: 640px;
+    height: 480px;
+    margin:auto;
+}
+
+#carousel{
+    padding-top:3rem;
+}
+
+/* .carousel-caption h5 {
+    font-family:Garamond;
+    font-size:3em;
+    color:red !important;
+}
+
+    
+.carousel-caption p {
+    font-family: Garamond;
+    color:blue !important;
+}
+    
+
+.carousel-caption .btn {
+    font-family:Garamond;
+    font-size:1em;
+    color:yellow;
+} */
