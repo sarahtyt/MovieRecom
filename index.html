@@ -7,32 +7,35 @@
     
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
    <link rel="stylesheet" href="css/styles.css">
-   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
 </head>
 
 <header>
     <div class="container">
         <h1><i class="fa fa-film"></i>   What's On</h1>
-        <p class="motto">Quick recommendation for your weekend movie to watch</p>
+        <p class="motto">Quick recommendation for your weekend movie-to-watch</p>
     </div>
 </header>
 
 <body>    
    <div class="container">
-        <div class="form-group">
-            <label for="animation">Choose recommendation criteria</label>
-                <select class="form-control" id="animation-select">
-                    <option value="Now Playing">Now Playing</option>
-                    <option value="Popular">Popular</option>
-                    <option value="Top Rated">Top Rated</option>
-                    <option value="Upcoming">Upcoming</option>
+       <form>
+           <div class="form-group">
+                <label for="criteria">Choose recommendation criteria</label>
+                <select class="form-control" id="criteria-select">
+                    <option value="now_playing">Now Playing</option>
+                    <option value="popular">Popular</option>
+                    <option value="top_rated">Top Rated</option>
+                    <option value="upcoming">Upcoming</option>
                 </select>
-        </div>
-
+            </div>
+        </form>
+        
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 h-75" src="images/ON-CE927_moviet_B620_20170714200426.jpg" alt="First slide">
+                    <img src="http://image.tmdb.org/t/p/w185//e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="First slide">
                     <span class="pull-right">
                         <h4>Movie One Title</h4>
                         <h5>Released:</h5>
@@ -40,7 +43,7 @@
                     </span>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 h-75" src="images/movie-film-video-production-ss-1920-800x450.jpg" alt="Second slide">
+                    <img src="http://image.tmdb.org/t/p/w185//e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="Second slide">
                     <span class="pull-right">
                         <h4>Movie Two Title</h4>
                         <h5>Released:</h5>
@@ -48,7 +51,7 @@
                     </span>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 h-75" src="images/ON-CE927_moviet_B620_20170714200426.jpg" alt="Third slide">
+                    <img src="http://image.tmdb.org/t/p/w185//e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="Third slide">
                     <span class="pull-right">
                         <h4>Movie Three Title</h4>
                         <h5>Released:</h5>
@@ -56,7 +59,8 @@
                     </span>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 h-75" src="images/movie-film-video-production-ss-1920-800x450.jpg" alt="Second slide">
+                    <img src="http://image.tmdb.org/t/p/w185//e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="Second slide">
+                    <br>
                     <span class="pull-right">
                         <h4>Movie Four Title</h4>
                         <h5>Released:</h5>
@@ -64,7 +68,7 @@
                     </span>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 h-75" src="images/movie-film-video-production-ss-1920-800x450.jpg" alt="Second slide">
+                    <img src="http://image.tmdb.org/t/p/w185//e1mjopzAS2KNsvpbpahQ1a6SkSn.jpg" alt="Second slide">
                     <span class="pull-right">
                         <h4>Movie Five Title</h4>
                         <h5>Released:</h5>
@@ -83,7 +87,7 @@
         </div>
    </div>
 
-   <!-- JavaScript modules -->
+
    <script src="js/app.js"></script>
 
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
